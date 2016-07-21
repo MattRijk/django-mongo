@@ -1,0 +1,10 @@
+<h1>Home Page</h1>
+
+{% for post in object_list %}
+
+<p>
+<em>{{ post.title }}</em>
+	{{ post.text }}
+</p>
+
+{% endfor %}
